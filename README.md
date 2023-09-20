@@ -1,6 +1,6 @@
 # asset-generator
 
-[![Lint Code Base](https://https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml/badge.svg)](https://https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml)
+[![Lint Code Base](https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml/badge.svg)](https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml)
 
 달콤소프트 기획팀에서 제작하는 기획서 엑셀파일을 GMTOOL에 업로드하는 에셋엑셀 파일로 변환하는 프로그램.
 
@@ -184,11 +184,11 @@ pip install -r requirements.txt
   python asset_generator/main.py /Users/yeonjilim/Documents/GitHub/dalcom/asset-generator/resources/input/base/SSY_Live_3.7.26_230209.xlsx /Users/yeonjilim/Documents/GitHub/dalcom/asset-generator/resources/input/planning_0216.xlsx /Users/yeonjilim/Documents/GitHub/dalcom/asset-generator/resources/input/mapping.xlsx /Users/yeonjilim/Documents/GitHub/dalcom/asset-generator/output/output.xlsx
   ```
 
-### 기존 에셋 엑셀
+### 기존 에셋 엑셀 (입력 데이터)
 
 이전 라이브 업데이트의 에셋 엑셀입니다.
 
-### Planning
+### Planning (입력 데이터)
 
 이번 업데이트에 대한 내용을 적습니다.
 
@@ -223,7 +223,7 @@ pip install -r requirements.txt
 
 </details>
 
-### Mapping
+### Mapping (입력 데이터)
 
 해당 프로젝트에 적용되는 값들을 적습니다.
 
