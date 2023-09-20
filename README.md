@@ -1,6 +1,6 @@
 # asset-generator
 
-[![Lint Code Base](https://github.com/dalcomsoft/asset-generator/actions/workflows/linter.yml/badge.svg)](https://github.com/dalcomsoft/asset-generator/actions/workflows/linter.yml)
+[![Lint Code Base](https://https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml/badge.svg)](https://https://github.com/dolppe/asset_generator_project/actions/workflows/linter.yml)
 
 달콤소프트 기획팀에서 제작하는 기획서 엑셀파일을 GMTOOL에 업로드하는 에셋엑셀 파일로 변환하는 프로그램.
 
@@ -130,7 +130,7 @@ python --version
 
 ```sh
 cd Desktop
-git clone https://github.com/dalcomsoft/asset-generator.git
+git clone https://github.com/dolppe/asset_generator_project.git
 ```
 
 아래와 같은 창이 뜨면 Sign in with your browser를 선택합니다.
@@ -188,17 +188,11 @@ pip install -r requirements.txt
 
 이전 라이브 업데이트의 에셋 엑셀입니다.
 
-**모든 프로젝트에서 변경 되어야 하는 부분**
-
-- LobbyBgData : SSS, SSW와 같이 무료 배경이 하단에 고정되어있는 경우 해당 부분을 가장 상단으로 위치 변경 해주어야 합니다.
-
 ### Planning
 
-이번 업데이트의 내용을 적습니다.
+이번 업데이트에 대한 내용을 적습니다.
 
 **고려사항**
-
-- 본 프로젝트는 이벤트, 한정, 프리미엄 배경에 대해서만 대응합니다. (무료, 기본 배경에 대한 프로젝트별 추가 방식이 매우 상이함)
 
 <details>
     <summary>미션 영역 작성하기</summary>
@@ -240,28 +234,6 @@ pip install -r requirements.txt
 ### 결과물 관련 사항
 
 엑셀의 서식이 모두 지워집니다. (색상, 테두리)
-
-LobbyBgStoreData > orderIndex : SSY의 기준에 맞추었습니다.
-
-## To-Do
-
-- [x] 빈 값이 없는 에셋 엑셀 완성
-- [x] Pylint 형식에 맞게 전체 코드 수정
-- [x] 프로젝트에 적합한 테스트 프레임워크 적용
-- [ ] 테스트 코드 작성
-- [x] 테스트 실행하는 GitHub Actions 스크립트 적용
-- [ ] dev 서버에서 테스트
-- [ ] exe 파일로 배포하기
-
-## Test
-
-### 테스트용 리소스 업로드 경로
-
-현재 테스트 시 리소스 업로드를 위해 사용되는 S3버킷은 aws 계정 `dalcomsoft` 하에 `asset-generator-test` 버킷입니다.
-
-`asset-generator-test` S3 콘솔 : <https://s3.console.aws.amazon.com/s3/buckets/asset-generator-test?region=ap-northeast-2&tab=objects>
-
-리소스 접근 url에는 별도의 cdn 적용을 하지 않았습니다.
 
 ## Lint
 
